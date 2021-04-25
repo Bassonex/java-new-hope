@@ -1,6 +1,6 @@
 package model.enums;
 
-import model.Course;
+
 
 public enum CourseName {
     QA1("Manual testing"),

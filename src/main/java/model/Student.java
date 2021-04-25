@@ -16,8 +16,6 @@ public class Student {
         this.email = email;
     }
 
-
-
     public Student() {}
 
     // STANDARD METHODS (GETTERS / SETTERS)
