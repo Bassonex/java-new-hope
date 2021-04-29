@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 // initialize library
 @Controller
 public class HelloController {
-
     @GetMapping("/hello/{userName}") // => http://localhost:8080/hello/Kristik
     public String getHelloPage(@PathVariable(value = "userName") String userName, Model model) {
         model.addAttribute("name", userName);
